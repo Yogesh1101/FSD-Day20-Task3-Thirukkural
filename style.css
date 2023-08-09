@@ -1,0 +1,136 @@
+.header {
+  height: 100px;
+  color: red;
+  background-color: white;
+  letter-spacing: 0.15em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.15em;
+  font-family: 'Yatra One', cursive;
+  font-size: 50px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-top: 50px;
+  height: 500px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.top{
+  margin-top: 10px;
+  height: 70px;
+  border-radius: 15px;
+}
+.top:hover{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.row{
+  border-radius: 15px;
+}
+.row:hover{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.bottom{
+  margin-top: 20px;
+  border-radius: 15px;
+}
+p{
+  text-align: center;
+}
+.inputForm{
+  margin-right: 20px;
+}
+.title{
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.15em;
+}
+.tamilLine1, .tamilLine2{
+  font-family: 'Tiro Tamil', serif;
+  font-size: 20px;
+  color: red;
+}
+.english{
+  color: red;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+.tamilExp, .chapterTam{
+  font-family: 'Noto Sans Tamil', sans-serif;
+  font-size: 17px;
+}
+.englishExp{
+  font-family: 'Yatra One', cursive;
+  font-size: 17px;
+}
+.submitBtn{
+  width: 100px;
+}
+.submitBtn:hover{
+  background-color: black;
+  border: none;
+}
+@media screen and (max-width: 878px){
+  .rowOne{
+    display: flex;
+    flex-direction: column;
+  }
+  .container{
+    height: 700px;
+  }
+}
+@media screen and (max-width: 1070){
+  .container{
+    margin-top: 10px;
+    height: 750px;
+  }
+}
+@media screen and (max-width: 895px){
+  .container{
+    margin-top: 10px;
+    height: 650px;
+  }
+}
+@media screen and (max-width: 630px){
+  .container{
+    margin-top: 10px;
+    height: 750px;
+  }
+}
+@media screen and (max-width: 450px){
+  .container{
+    margin-top: 10px;
+    height: 950px;
+  }
+}
+@media screen and (max-width: 390px){
+  .container{
+    margin-top: 10px;
+    height: 950px;
+  }
+}
+@media screen and (max-width: 345px){
+  .container{
+    margin-top: 10px;
+    height: 1100px;
+  }
+}
+@media screen and (max-width: 330px){
+  .container{
+    margin-top: 10px;
+    height: 1100px;
+  }
+}
+@media screen and (max-width: 281px){
+  .container{
+    margin-top: 10px;
+    height: 1200px;
+  }
+}
